@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LikeToLike.API", "LikeToLik
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LikeToLike.BLL", "LikeToLike.BLL\LikeToLike.BLL.csproj", "{A85DDDAA-0E3F-4834-84F4-BD8BDFAA98F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LikeToLike.Core", "LikeToLike.Core\LikeToLike.Core.csproj", "{6FD53FBE-75E4-45F9-B76A-EFD6F461FF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LikeToLike.DAL", "LikeToLike.DAL\LikeToLike.DAL.csproj", "{3FD91E40-350D-4E0A-92B2-A51CB4B7D060}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LikeToLike.DB", "LikeToLike.DB\LikeToLike.DB.sqlproj", "{AC6B665D-5127-48A3-B0DB-EF661EAD512E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,20 @@ Global
 		{A85DDDAA-0E3F-4834-84F4-BD8BDFAA98F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85DDDAA-0E3F-4834-84F4-BD8BDFAA98F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85DDDAA-0E3F-4834-84F4-BD8BDFAA98F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD53FBE-75E4-45F9-B76A-EFD6F461FF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD53FBE-75E4-45F9-B76A-EFD6F461FF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD53FBE-75E4-45F9-B76A-EFD6F461FF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD53FBE-75E4-45F9-B76A-EFD6F461FF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD91E40-350D-4E0A-92B2-A51CB4B7D060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD91E40-350D-4E0A-92B2-A51CB4B7D060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD91E40-350D-4E0A-92B2-A51CB4B7D060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD91E40-350D-4E0A-92B2-A51CB4B7D060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6B665D-5127-48A3-B0DB-EF661EAD512E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6B665D-5127-48A3-B0DB-EF661EAD512E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6B665D-5127-48A3-B0DB-EF661EAD512E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC6B665D-5127-48A3-B0DB-EF661EAD512E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6B665D-5127-48A3-B0DB-EF661EAD512E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6B665D-5127-48A3-B0DB-EF661EAD512E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

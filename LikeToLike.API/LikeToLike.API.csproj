@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LikeToLike.BLL\LikeToLike.BLL.csproj" />
+    <ProjectReference Include="..\LikeToLike.Core\LikeToLike.Core.csproj" />
   </ItemGroup>
 
 </Project>
